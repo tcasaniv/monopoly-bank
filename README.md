@@ -1,25 +1,25 @@
 # Monopoly Bank
 
 <!-- ![Monopoly Bank](/img/banner.png) -->
-_![Este proyecto](https://tcasaniv.github.io/monopoly-bank/) es una web para el banco usado en los juegos de Monopoly._
+_[Este proyecto](https://tcasaniv.github.io/monopoly-bank/) es una web para el banco usado en los juegos de Monopoly._
 
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-Mira **![Despliegue](#despliegue-)** para conocer como desplegar el proyecto.
+Mira **[Despliegue](#despliegue-)** para conocer como desplegar el proyecto.
 
 
 ### Pre-requisitos 📋
 
 _Qué cosas necesitas para probar el software._
 
-* **Un navegador web** - | Chrome | Edge | Firefox | Opera | u otro.
-* **Un editor de texto plano** - | VS Code | Bloc de notas | GNU Nano | VIM | u otro.
+* **Un navegador web** - | [Chrome](https://www.google.com/intl/es-419/chrome/) | [Edge](https://www.microsoft.com/es-es/edge) | [Firefox](https://www.mozilla.org/es-ES/firefox/new/) | [Opera](https://www.opera.com/es) | u otro.
+* **Un editor de texto plano** - | [VS Code](https://code.visualstudio.com/) | [Bloc de notas](https://es.wikipedia.org/wiki/Bloc_de_notas) | [GNU Nano](https://www.nano-editor.org/) | [VIM](https://www.vim.org/) | u otro.
 
 ### Instalación 🔧
 
-_Clona el repositorio en tu máquina local usando ![git]() u otra alternativa como GitHub Desktop._
+_Clona el repositorio en tu máquina local usando [git](https://git-scm.com/) u otra alternativa como GitHub Desktop._
 
 ```
 $ git clone https://github.com/tcasaniv/monopoly-bank.git
@@ -31,7 +31,7 @@ _OPCIONALMENTE: Puedes abrir los archivos en tu editor de texto plano para modif
 
 ## Despliegue 📦
 
-_Puedes usar ![GitHub Pages](https://pages.github.com/) o algún otro servicio (como ![Heroku](https://www.heroku.com/) o ![DigitalOcean](https://www.digitalocean.com/)) para el despliegue del sitio web._
+_Puedes usar [GitHub Pages](https://pages.github.com/) o algún otro servicio (como [Heroku](https://www.heroku.com/) o [DigitalOcean](https://www.digitalocean.com/)) para el despliegue del sitio web._
 
 ## Construido con 🛠️
 
