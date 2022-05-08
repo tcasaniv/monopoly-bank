@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monopoly Bank</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body class="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Monopoly Bank</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" href="#">Características</a>
+                    <a class="nav-link" href="#">Reglas</a>
+                    <!-- <a class="nav-link disabled">Disabled</a> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="accordion row row-cols-xxl-5 row-cols-xl-4 row-cols-lg-3 row-cols-sm-2 g-sm-3 g-2" id="accordionPanelsStayOpen">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapse1" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapse1">
+                        Jugador #1
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapse1" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-heading1">
+                    <div class="accordion-body">
+
+                        <strong>Esta es la cuenta del primer jugador.</strong><br />
+                        Ingresa el monto positivo o negativo a añadir a tu cuenta, luego presiona calcular.
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">S/.</span>
+                            <span id="mount1" class="input-group-text">0.00</span>
+                            <input id="input1" type="number" class="form-control"
+                                placeholder="Ingresa el monto a sumar o restar" aria-label="Monto en soles peruanos" />
+                            <button id="button-player1" class="btn btn-outline-secondary"
+                                type="button">Calcular</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading2">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapse2" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapse2">
+                        Jugador #2
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-heading2">
+                    <div class="accordion-body">
+
+                        <strong>Esta es la cuenta del segundo jugador.</strong><br />
+                        Ingresa el monto positivo o negativo a añadir a tu cuenta, luego presiona calcular.
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <span id="mount2" class="input-group-text">0.00</span>
+                            <input id="input2" type="number" class="form-control"
+                                placeholder="Ingresa el monto a sumar o restar" aria-label="Monto en soles peruanos">
+                            <button id="button-player2" class="btn btn-outline-secondary" type="button"
+                                id="button-addon2">Calcular</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading3">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapse3" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapse3">
+                        Jugador #3
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapse3" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-heading3">
+                    <div class="accordion-body">
+
+
+                        <strong>Esta es la cuenta del tercer jugador.</strong><br />
+                        Ingresa el monto positivo o negativo a añadir a tu cuenta, luego presiona calcular.
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <span id="mount3" class="input-group-text">0.00</span>
+                            <input id="input3" type="number" class="form-control"
+                                placeholder="Ingresa el monto a sumar o restar" aria-label="Monto en soles peruanos">
+                            <button id="button-player3" class="btn btn-outline-secondary" type="button"
+                                id="button-addon2">Calcular</button>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading4">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapse4" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapse4">
+                        Jugador #4
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-heading4">
+                    <div class="accordion-body">
+
+
+                        <strong>Esta es la cuenta del cuarto jugador.</strong><br />
+                        Ingresa el monto positivo o negativo a añadir a tu cuenta, luego presiona calcular.
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <span id="mount4" class="input-group-text">0.00</span>
+                            <input id="input4" type="number" class="form-control"
+                                placeholder="Ingresa el monto a sumar o restar" aria-label="Monto en soles peruanos">
+                            <button id="button-player4" class="btn btn-outline-secondary" type="button"
+                                id="button-addon2">Calcular</button>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-heading5">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapse5" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapse5">
+                        Jugador #5
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-heading5">
+                    <div class="accordion-body">
+
+
+                        <strong>Esta es la cuenta del quinto jugador.</strong><br />
+                        Ingresa el monto positivo o negativo a añadir a tu cuenta, luego presiona calcular.
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <span id="mount5" class="input-group-text">0.00</span>
+                            <input id="input5" type="number" class="form-control"
+                                placeholder="Ingresa el monto a sumar o restar" aria-label="Monto en soles peruanos">
+                            <button id="button-player5" class="btn btn-outline-secondary" type="button"
+                                id="button-addon2">Calcular</button>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
