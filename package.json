@@ -1,8 +1,7 @@
 {
   "name": "monopoly-bank",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Una web para las operaciones del banco en Monopoly.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +10,7 @@
     "url": "git+https://github.com/tcasaniv/monopoly-bank.git"
   },
   "author": "Terry Casani",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tcasaniv/monopoly-bank/issues"
   },
