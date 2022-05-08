@@ -1,6 +1,6 @@
 # Monopoly Bank
 
-<!-- ![Monopoly Bank](/img/banner.png) -->
+![Monopoly Bank](/img/banner.png)
 _[Este proyecto](https://tcasaniv.github.io/monopoly-bank/) es una web para el banco usado en los juegos de Monopoly._
 
 ## Comenzando 🚀
